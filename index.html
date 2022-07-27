@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      
+      <picture>
+        <source media="(min-width: 850px)" srcset="images/image-product-desktop.jpg">
+        <source srcset="images/image-product-mobile.jpg">
+        <img class="product-image" src="images/image-product-desktop.jpg" alt="image of chanel perfume bottle">
+      </picture>
+
+      <div class="text-content">
+
+        <p class="fivehun dgb category">PERFUME</p>
+        <h2 class="name sevenhun">Gabrielle Essence Eau De Parfum</h2>
+        <p class="description fivehun dgb">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <p class="current-price sevenhun">$149.99<span class="dgb old-price fivehun"><s>$169.99</s></span></p>   
+      
+        <div class="add-to-cart">
+          <img src="images/icon-cart.svg" alt="cart image">
+          <p class="btn-content sevenhun">Add to cart</p>
+        </div>
+      
+      </div>
+      
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <strong><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></strong>. 
+    Coded by <strong><a href="https://github.com/xavCS">xavCS</a></strong>.
+  </div>
+</body>
+</html>
