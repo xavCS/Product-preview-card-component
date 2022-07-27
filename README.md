@@ -13,7 +13,7 @@ This is a solution to the Product preview card component challenge on Frontend M
 
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://xavcs.github.io/Product-preview-card-component/
 
 From this project I mainly refined what I already knew of flexbox (which is not much) including things like flex-direction and improved on my ability to make responsive designs using media queries. 
 I also learned about the ```<picture></picture>``` element and how I can use it to make responsive images that dynamically load in based on viewports which is nice as I was getting confused using the ```<img srcset="">``` method.
