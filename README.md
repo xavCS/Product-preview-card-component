@@ -12,7 +12,7 @@ This is a solution to the Product preview card component challenge on Frontend M
 ![My mobile design](./screenshots/mobile.png)
 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-flexbox-sZQ8uCDL5T
 - Live Site URL: https://xavcs.github.io/Product-preview-card-component/
 
 From this project I mainly refined what I already knew of flexbox (which is not much) including things like flex-direction and improved on my ability to make responsive designs using media queries. 
